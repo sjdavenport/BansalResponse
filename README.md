@@ -9,7 +9,7 @@ features. Unfortunately this implies that a number of their conclusions regardin
 invalid.
 
 The purpose of this repository is to provide freely available and reproducible
-code the evaluations considered by Bansal and Peterson (2018); showing simulation and theory align. Our results
+code the evaluations considered by Bansal and Peterson (2018); showing simulation and theory align in line with the standard literature. Our results
 show that in these simulations the expected Euler characteristic closely
 matches the average number of clusters as predicted by theory. Unfortunately it appears
 that Bansal and Peterson (2018) have miscalculated the Euler characteristics and have simulated their random
