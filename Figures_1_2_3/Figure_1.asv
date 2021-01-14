@@ -1,0 +1,34 @@
+% Figures 1-3, comparing BP's expected number of clusters to the truth
+% Set FWHM vector
+FWHM_vec = 5:5:25;
+CDT_vec = [1.5,2,2.5,3];
+
+% Load in data
+BRloc = 'C:/Users/12SDa/global/TomsMiniProject/Latex/MyPapers/BansalResponse/BansalResponse/';
+load([BRloc, 'BP_table'], 'BP_table');
+load([BRloc,'ECtable.mat'])
+load([BRloc,'ECtable_sims.mat'])
+
+for d = 1:3
+    for I = 1:length(CDT_vec)
+        h = semilogy(FWHM_vec, BP_table.MCsize{d}(:,I),'-',...
+            
+
+    set(h(1:2),'Color',def_col('red'))
+    set(h(3:4),'Color',def_col('blue'))
+    
+    if CDT(I) > 2.5
+        legend({'BP: MC E(Cluster Size)','Bansal: RFT E(Cluster Size)',...
+            'MC E(Cluster Size)','RFT E(Cluster Size)'})
+    end
+    xlabel('Applied FWHM (per voxel)')
+    ylabel('Number of clusters')
+    title(['Expected Number of Clusters - CDT ' num2str(cdt)])
+    export_fig(['BansalSizeCDT' num2str(CDT(I))],'-pdf')
+    end
+end
+
+ThickLine(3);
+BigFont
+
+
