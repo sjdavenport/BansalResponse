@@ -1,7 +1,7 @@
 # Code for our response article to Bansal and Peterson (2018)
 ## Overview of the problem
 The use of Random Field Theory (RFT) to control the false positive rate in neuroimaging
-is a well established testing framework.  In a recent manuscript, Bansal and Peterson (2018)
+is a well established testing framework.  In a recent manuscript, [Bansal and Peterson (2018)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5991838/)
 found that in simple Gaussian simulations RFT incorrectly estimates the number of clusters
 of a Gaussian field that lie above a threshold. However, these results contradict the
 existing literature and our own previous findings, and exhibited highly counter-intuitive
