@@ -8,13 +8,15 @@ existing literature and our own previous findings, and exhibited highly counter-
 features. Unfortunately this implies that a number of their conclusions regarding the performance of RFT are
 invalid.
 
-The purpose of our response is to demonstrate with freely available and reproducible
+The purpose of this repository is to provide freely available and reproducible
 code the evaluations considered by Bansal and Peterson (2018); showing simulation and theory align. Our results
 show that in these simulations the expected Euler characteristic closely
 matches the average number of clusters as predicted by theory. Unfortunately it appears
 that BP have miscalculated the Euler characteristics and have simulated their random
 fields incorrectly. Unfortunately this implies that their conclusions regarding the performance of RFT are
-invalid. See our response HERE for full details.
+invalid. See our response article HERE for full details.
+
+To run the code in this repo you will need to have MATLAB and to install the [RFTtoolbox](https://github.com/sjdavenport/RFTtoolbox/) - A MATLAB toolbox designed for generation and analysis of random fields both continuously sampled and on a lattice.
 
 ## Comparing their results and ours
 
