@@ -20,7 +20,9 @@ To run the code in this repo you will need to have MATLAB and to install the [RF
 
 ## Comparing their results and ours
 
-![alt tag](ReadmeFigures/2Dplots.PNG)
+These figures compare out results with those obtained in Bansal and Peterson (2018) (which is denoted as BP in the plots). The figures demonstrate that in these simulation settings RFT provides a close estimate of the expected Euler characteristic (at all applied smoothness levels) contradicting their findings.
 
-![alt tag](ReadmeFigures/3Dplots.PNG)
+![alt tag](ReadmeFigures/2Dplots.JPG)
+
+![alt tag](ReadmeFigures/3Dplots.JPG)
 
