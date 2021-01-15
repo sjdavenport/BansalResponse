@@ -20,4 +20,7 @@ To run the code in this repo you will need to have MATLAB and to install the [RF
 
 ## Comparing their results and ours
 
-![alt tag](Figures/readme_1Dreal.png)
+![alt tag](ReadmeFigures/2Dplots.png)
+
+![alt tag](ReadmeFigures/3Dplots.png)
+
