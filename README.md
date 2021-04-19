@@ -17,6 +17,8 @@ fields incorrectly. Unfortunately this implies that their conclusions regarding 
 invalid. See our response article HERE for full details.
 
 To run the code in this repo you will need to have MATLAB and to install the [RFTtoolbox](https://github.com/sjdavenport/RFTtoolbox/) - A MATLAB toolbox designed for generation and analysis of random fields both continuously sampled and on a lattice.
+In addition, SPM12 must be installed in order for the 3D LKC estimation (performed using SPM)
+to work.
 
 ## Comparing their results and ours
 

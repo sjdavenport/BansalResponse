@@ -19,7 +19,7 @@ for J = 1:length(u)
 end
 
 ECtablemate_spm_1D
-save('./ECtable.mat', 'ECtablemate_spm_1D')
+% save('./ECtable.mat', 'ECtablemate_spm_1D')
 
 %% 2D
 ECtablemate_spm_2D = zeros(5, 4);

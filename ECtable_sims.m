@@ -4,7 +4,7 @@ niters = 1000;
 
 % The script as written takes a couple of hours to run. This can be
 % shortened by either running things in parallel (which is very easy to do
-% here) or by decreases the number of iterations: niters, above. Of course
+% here) or by decreasing the number of iterations: niters, above. Of course
 % the 3D section is what takes the longest.
 
 %% 1D
@@ -74,4 +74,4 @@ for I = 1:length(FWHM)
     end
 end
 
-save('./ECtable_sims.mat', 'store_clusters3D', 'store_clusters2D', 'store_clusters1D')
+% save('./ECtable_sims.mat', 'store_clusters3D', 'store_clusters2D', 'store_clusters1D')
